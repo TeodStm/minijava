@@ -1,0 +1,124 @@
+class A{
+	
+	public static void main(String[] args){
+		int x;
+		int y;
+		boolean flag;
+		boolean flg;
+		int[] array;
+		Alpha A;
+		Beta B;
+		MyOtherclass M;
+
+		//M = new Myclass();
+		A = new MyOtherclass();
+
+		y = 10+3;
+		flag = true;
+
+	}
+}
+
+class Myclass{
+	int k; //sxolio
+	int z;
+	int[] arr;
+	MyOtherclass A;
+
+	public boolean method1(int y, boolean pi){
+		int meth1;
+
+		meth1 = 3;
+		return false;
+	}
+
+	public int method2(int y2){
+		int meth2;
+
+		meth2 = 5;
+		return meth2;
+	}
+}
+
+
+class Alpha{
+	boolean b;
+	MyOtherclass C;
+	int z;
+	int test;
+
+	public int getVar(){
+		int x;
+		x = 5;
+		if( x < 3 ){
+			z = z;
+		}
+		else{
+			z = 0;
+		}
+		return z;
+	}
+
+	public boolean getBool(int k){
+		int psi;
+
+		psi = 13;
+		return b;
+	}
+
+
+	
+}
+
+class MyOtherclass extends Alpha{
+	int k; //sxolio
+	int[] arr2;
+	boolean test;
+
+	public boolean myethod1(int y, boolean pi){
+		int meth1;
+
+		meth1 = k+y;
+		return false;
+	}
+
+	public int methody2(int y2){
+		int meth2;
+
+		meth2 = 5+1;
+		return 10;
+	}
+
+	public int getVar(){
+		int x;
+		x = 5;
+		if( x < 3 ){
+			z = z;
+		}
+		else{
+			z = 0;
+		}
+		return z;
+	}
+
+}
+
+class Beta extends MyOtherclass{
+		boolean ibeta;
+
+		public boolean getVarBeta(){
+			int y;
+			y = 3;
+
+			return ibeta;
+		}
+		public boolean getBool(int x){
+			int psi;
+
+			psi = 13;
+			return b;
+		}
+		
+
+}
+

@@ -1,0 +1,36 @@
+class A{
+	
+	public static void main(String[] args){
+		int x;
+		int y;
+		boolean flag;
+		int[] array;
+		Myclass m;
+
+		
+		m = new Myclass();
+
+		x = m.method1(3, false);
+
+	}
+}
+
+class Myclass{
+	int k; //sxolio
+	int[] arr;
+
+	public int method1(int y, boolean pi){
+		int meth1;
+
+		meth1 = 10+y;
+		
+		return meth1;
+	}
+
+	public int method2(int y2){
+		int meth2;
+		
+		return 10;
+	}
+}
+
